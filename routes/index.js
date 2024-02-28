@@ -1,7 +1,8 @@
 const express = require('express');
 
+//Generar router
 const productsRouter = require('./productsRouter');
-const usersRouter = require('./userRouter');
+const usersRouter = require('./usersRouter');
 const categoriesRouter = require('./categoriesRouter');
 
 function routerApi(app) {

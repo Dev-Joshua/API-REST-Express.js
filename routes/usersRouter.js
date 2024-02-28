@@ -3,7 +3,7 @@ const express = require('express');
 const router = express.Router();
 
 //Parametros query
-router.get('/', (req, res) => {
+router.get('/users', (req, res) => {
   const { limit, offset } = req.query;
   if (limit && offset) {
     res.json({
