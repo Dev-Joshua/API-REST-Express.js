@@ -14,7 +14,6 @@ const service = new ProductsService();
 
 router.get('/', async (req, res) => {
   const products = await service.find();
-
   res.json(products);
 });
 
